@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Application</h1>
+        <div class="dropdown">
+            <input type="text" id="cityInput" class="city-input" placeholder="Enter city name">
+            <ul class="dropdown-menu" id="dropdownMenu"></ul>
+        </div>
+        <button id="submitBtn">Get Weather</button>
+        <div id="weatherInfo"></div>
+    </div>
+
+    <script>
+        const cities = [
+        { name: 'New York' },
+        { name: 'London' },
+        { name: 'Tokyo' },
+        { name: 'Paris' },
+        { name: 'Berlin' },
+        { name: 'Sydney' },
+        { name: 'Barcelona' },
+        { name: 'Rome' },
+        { name: 'Los Angeles' },
+        { name: 'Chicago' },
+        { name: 'Madrid' },
+        { name: 'Toronto' },
+        { name: 'Seoul' },
+        { name: 'Melbourne' },
+        { name: 'Mumbai' },
+        { name: 'Cape Town' },
+        { name: 'Dubai' },
+        { name: 'Singapore' },
+        { name: 'Hong Kong' },
+        { name: 'Bangkok' },
+        { name: 'Exeter'}
+    ];
+    </script>
+
+    <script src="app.js"></script>
+</body>
+</html>
